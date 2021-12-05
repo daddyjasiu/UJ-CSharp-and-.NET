@@ -1,0 +1,16 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.runtimeconfig.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.runtimeconfig.dev.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\ref\Nauka i testy.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\bin\Debug\net5.0\Nauka i testy.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\ref\Nauka i testy.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\Nauka\Nauka i testy\Nauka i testy\obj\Debug\net5.0\Nauka i testy.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\BeerProcessor.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\BeerProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\ref\BeerProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\BeerProcessor.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\Common.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\bin\Debug\net5.0\Common.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.csproj.CopyComplete
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\ref\BeerProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\BeerProcessor\obj\Debug\net5.0\BeerProcessor.pdb

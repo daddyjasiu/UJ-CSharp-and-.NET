@@ -1,0 +1,16 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.runtimeconfig.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.runtimeconfig.dev.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\ref\Zadanie7Solution.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\bin\Debug\net5.0\Zadanie7Solution.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\ref\Zadanie7Solution.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Zadanie7Solution\obj\Debug\net5.0\Zadanie7Solution.genruntimeconfig.cache

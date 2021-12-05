@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>Zadanie7Solution</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BeerProcessor\BeerProcessor.csproj" />
+      <ProjectReference Include="..\SandwichProcessor\SandwichProcessor.csproj" />
+    </ItemGroup>
+
+</Project>
