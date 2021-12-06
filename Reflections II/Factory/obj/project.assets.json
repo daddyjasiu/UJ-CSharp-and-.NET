@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\Factory\\Factory.csproj",
+      "projectUniqueName": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\Factory\\Factory.csproj",
       "projectName": "Factory",
-      "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\Factory\\Factory.csproj",
+      "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\Factory\\Factory.csproj",
       "packagesPath": "C:\\Users\\jansk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\Factory\\obj\\",
+      "outputPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\Factory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,11 +95,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\BeerProcessor\\BeerProcessor.csproj": {
-              "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\BeerProcessor\\BeerProcessor.csproj"
+            "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\BeerProcessor\\BeerProcessor.csproj": {
+              "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\BeerProcessor\\BeerProcessor.csproj"
             },
-            "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\SandwichProcessor\\SandwichProcessor.csproj": {
-              "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\SandwichProcessor\\SandwichProcessor.csproj"
+            "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\SandwichProcessor\\SandwichProcessor.csproj": {
+              "projectPath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Reflections II\\SandwichProcessor\\SandwichProcessor.csproj"
             }
           }
         }

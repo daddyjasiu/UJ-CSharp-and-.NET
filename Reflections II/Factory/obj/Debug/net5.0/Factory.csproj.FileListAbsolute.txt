@@ -21,3 +21,26 @@ C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Factory\bin\De
 C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Factory\bin\Debug\net5.0\SandwichProcessor.pdb
 C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Factory\bin\Debug\net5.0\Common.pdb
 C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\7\Zadanie7Solution\Factory\obj\Debug\net5.0\Factory.csproj.CopyComplete
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.runtimeconfig.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.runtimeconfig.dev.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\ref\Factory.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Factory.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\BeerProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Common.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\SandwichProcessor.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\BeerProcessor.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\SandwichProcessor.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\bin\Debug\net5.0\Common.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.csproj.CopyComplete
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\ref\Factory.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Reflections II\Factory\obj\Debug\net5.0\Factory.genruntimeconfig.cache

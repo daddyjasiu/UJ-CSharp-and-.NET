@@ -1,3 +1,0 @@
-Factory.exe
-C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\BeerProcessor\\bin\\Debug\\net5.0\\SandwichProcessor.dll
-Kanapka

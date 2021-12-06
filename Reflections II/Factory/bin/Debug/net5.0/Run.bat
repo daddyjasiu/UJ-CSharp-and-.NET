@@ -1,1 +1,1 @@
-Factory.exe "BeerProcessor.dll" "Piwko"
+Factory.exe "BeerProcessor.dll" "Piwko" "SandwichProcessor.dll" "Kanapeczka"
