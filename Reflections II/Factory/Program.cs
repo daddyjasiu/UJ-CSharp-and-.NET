@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using BeerProcessor;
-using SandwichProcessor;
 
 namespace Factory
 {
@@ -29,9 +27,7 @@ namespace Factory
             for (int i = 0; i < args.Length; i++)
             {
                 string filePath = args[i];
-            
-                Sandwich sandwich = new();
-                Beer beer = new();
+                
                 //C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\BeerProcessor\\bin\\Debug\\net5.0\\BeerProcessor.dll
                 //C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\7\\Zadanie7Solution\\SandwichProcessor\\bin\\Debug\\net5.0\\SandwichProcessor.dll
                 if(ParseFilePath(filePath) == "SandwichProcessor.dll")
@@ -43,8 +39,9 @@ namespace Factory
                     Type sandwichType = sandwichAssembly.GetType("SandwichProcessor.Sandwich");
                     PropertyInfo sandwichProperty = sandwichType.GetProperty("Tytul");
                     MethodInfo sandwichProcessMethod = sandwichType.GetMethod("Process");
-                    sandwichProperty.SetValue(sandwich, sandwichName);
-                    sandwichProcessMethod.Invoke(sandwich, null); //wywoływanie
+                    object o = Activator.CreateInstance(sandwichType);
+                    sandwichProperty.SetValue(o, sandwichName);
+                    sandwichProcessMethod.Invoke(o, null); //wywoływanie
                 }
             
                 else if (ParseFilePath(filePath) == "BeerProcessor.dll")
@@ -55,8 +52,9 @@ namespace Factory
                     Type beerType = beerAssembly.GetType("BeerProcessor.Beer");
                     PropertyInfo beerProperty = beerType.GetProperty("Tytul");
                     MethodInfo beerProcessMethod = beerType.GetMethod("Process");
-                    beerProperty.SetValue(beer, beerName);
-                    beerProcessMethod.Invoke(beer, null); //wywoływanie hello
+                    object o = Activator.CreateInstance(beerType);
+                    beerProperty.SetValue(o, beerName);
+                    beerProcessMethod.Invoke(o, null); //wywoływanie hello
                 }
             }
 
