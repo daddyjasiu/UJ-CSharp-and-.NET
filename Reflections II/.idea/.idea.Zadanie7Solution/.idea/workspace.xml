@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2fda325-7ddb-46a6-b738-ed5b76eb3b15" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/Nauka i testy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/Nauka i testy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/Nauka i testy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/Nauka i testy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/ref/Nauka i testy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/bin/Debug/net5.0/ref/Nauka i testy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/Nauka i testy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/Nauka i testy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/Nauka i testy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/Nauka i testy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/ref/Nauka i testy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Nauka/Nauka i testy/obj/Debug/net5.0/ref/Nauka i testy.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadanie7Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadanie7Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/net5.0/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/net5.0/Factory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/net5.0/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/net5.0/Factory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandwichProcessor/obj/Debug/net5.0/SandwichProcessor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SandwichProcessor/obj/Debug/net5.0/SandwichProcessor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/net5.0/Factory.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,7 @@
       <workItem from="1638720071264" duration="6248000" />
       <workItem from="1638781876364" duration="2147000" />
       <workItem from="1639248535437" duration="370000" />
+      <workItem from="1640537384891" duration="748000" />
     </task>
     <servers />
   </component>
