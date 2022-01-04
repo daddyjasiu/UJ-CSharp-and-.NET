@@ -1,0 +1,11 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\bin\Debug\Text Scanner.exe.config
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\bin\Debug\Text Scanner.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\bin\Debug\Text Scanner.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.csproj.SuggestedBindingRedirects.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text_Scanner.Form1.resources
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text_Scanner.Properties.Resources.resources
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.csproj.GenerateResource.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WinForms\Text Scanner\Text Scanner\obj\Debug\Text Scanner.pdb
