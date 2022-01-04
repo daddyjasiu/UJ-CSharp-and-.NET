@@ -47,11 +47,11 @@
             this.tableLayoutPanel1.Controls.Add(this.listView2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.listView1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(80, 64);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 82);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(785, 346);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(921, 306);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // textBox1
@@ -63,7 +63,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(255, 340);
+            this.textBox1.Size = new System.Drawing.Size(300, 300);
             this.textBox1.TabIndex = 0;
             // 
             // listView1
@@ -72,9 +72,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(264, 3);
+            this.listView1.Location = new System.Drawing.Point(309, 3);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(255, 340);
+            this.listView1.Size = new System.Drawing.Size(300, 300);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -84,9 +84,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(525, 3);
+            this.listView2.Location = new System.Drawing.Point(615, 3);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(257, 340);
+            this.listView2.Size = new System.Drawing.Size(303, 300);
             this.listView2.TabIndex = 2;
             this.listView2.UseCompatibleStateImageBehavior = false;
             // 
