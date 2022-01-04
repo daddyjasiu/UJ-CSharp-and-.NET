@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f58dfce9-146a-4170-9526-d022b3df3af3": {
+      "ProjectGuid": "f58dfce9-146a-4170-9526-d022b3df3af3",
+      "DisplayName": "Text Scanner",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
