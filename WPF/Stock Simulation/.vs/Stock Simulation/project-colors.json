@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2f943202-7cdb-41e9-98c6-1ae037c7da4f": {
+      "ProjectGuid": "2f943202-7cdb-41e9-98c6-1ae037c7da4f",
+      "DisplayName": "Stock Simulation",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

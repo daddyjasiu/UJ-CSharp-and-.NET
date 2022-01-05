@@ -1,0 +1,21 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\Stock Simulation.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\Stock Simulation.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\Stock Simulation.runtimeconfig.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\Stock Simulation.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\ref\Stock Simulation.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\bin\Debug\net6.0-windows\Stock Simulation.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation_MarkupCompile.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation_MarkupCompile.lref
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.g.resources
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\ref\Stock Simulation.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\WPF\Stock Simulation\Stock Simulation\obj\Debug\net6.0-windows\Stock Simulation.genruntimeconfig.cache

@@ -5,8 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Stock_Simulation"
         mc:Ignorable="d"
-        Title="Stock Simulation" Height="450" Width="800">
-    <Grid>
+        Title="Stock Simulation" Height="535" Width="510">
 
-    </Grid>
+	<Grid ShowGridLines="False">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="250"></RowDefinition>
+			<RowDefinition Height="250"></RowDefinition>
+
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="250" />
+			<ColumnDefinition Width="250" />
+		</Grid.ColumnDefinitions>
+
+		<Rectangle Name="rect1" Grid.Column="0" Grid.Row="0" Width="auto" Height="auto" Fill="Red" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+		<Label Name="nameLabel1" FontSize="50" Grid.Column="0" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+		<Label Name="currPriceLabel1" FontSize="50" Grid.Column="0" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<Label Name="changePriceLabel1" FontSize="50" Grid.Column="0" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+		<Rectangle Name="rect2" Grid.Column="1" Grid.Row="0" Width="auto" Height="auto" Fill="Orange" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+		<Label Name="nameLabel2" FontSize="50" Grid.Column="1" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+		<Label Name="currPriceLabel2" FontSize="50" Grid.Column="1" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<Label Name="changePriceLabel2" FontSize="50" Grid.Column="1" Grid.Row="0" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+		
+		<Rectangle Name="rect3" Grid.Column="0" Grid.Row="1" Width="auto" Height="auto" Fill="Yellow" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+		<Label Name="nameLabel3" FontSize="50" Grid.Column="0" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+		<Label Name="currPriceLabel3" FontSize="50" Grid.Column="0" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<Label Name="changePriceLabel3" FontSize="50" Grid.Column="0" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+		<Rectangle Name="rect4" Grid.Column="1" Grid.Row="1" Width="auto" Height="auto" Fill="LightGreen" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+		<Label Name="nameLabel4" FontSize="50" Grid.Column="1" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+		<Label Name="currPriceLabel4" FontSize="50" Grid.Column="1" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<Label Name="changePriceLabel4" FontSize="50" Grid.Column="1" Grid.Row="1" Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+	</Grid>
+
 </Window>
