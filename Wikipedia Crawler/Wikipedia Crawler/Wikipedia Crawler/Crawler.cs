@@ -29,14 +29,16 @@ namespace Wikipedia_Crawler
 			Queue<CrawlerPage> queue = new();
 			queue.Enqueue(sourcePage);
 
-			while(queue.Count > 0)
+			while (queue.Count > 0)
 			{
 				_currDepth++;
-
 				var currPage = queue.Dequeue();
-				
+
 				if (currPage.mainLink == destinationPage.mainLink)
+				{
+					visited.Add(currPage.mainLink);
 					break;
+				}
 
 				if (visited.Contains(currPage.mainLink))
 					continue;
@@ -44,15 +46,18 @@ namespace Wikipedia_Crawler
 				visited.Add(currPage.mainLink);
 
 				foreach (var neighbor in await currPage.GetPages())
+				{
 					if (!visited.Contains(neighbor.mainLink))
+					{
 						queue.Enqueue(neighbor);
+					}
+				}
 			}
 
-			foreach(var visitedPage in visited)
+			foreach (var visitedPage in visited)
 			{
 				Console.WriteLine(visitedPage);
 			}
-
 		}
 
 	}

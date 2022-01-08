@@ -30,25 +30,40 @@ namespace Wikipedia_Crawler
 
 		private async Task<HashSet<string>> GetPages(CrawlerPage page)
 		{
-			var client = new HttpClient();
-			client.DefaultRequestHeaders.Add("User-Agent", "C# console program");
-			var htmlContent = await client.GetStringAsync(page.mainLink);
+			string result = "";
 
-			HtmlDocument htmlDoc = new HtmlDocument();
-			htmlDoc.LoadHtml(htmlContent);
-			var programmerLinks = htmlDoc.DocumentNode
-				.Descendants("li")
-				.Where(node => !node.GetAttributeValue("class", "").Contains("tocsection")).ToList();
-
-			HashSet<string> wikiLinks = new();
-
-			foreach (var link in programmerLinks)
+			using (HttpClient client = new HttpClient())
 			{
-				if (link.FirstChild.Attributes.Count > 0)
-					wikiLinks.Add("https://en.wikipedia.org/" + link.FirstChild.Attributes[0].Value);
+				using (HttpResponseMessage response = client.GetAsync(page.mainLink).Result)
+				{
+					using (HttpContent content = response.Content)
+					{
+						result = content.ReadAsStringAsync().Result;
+					}
+				}
 			}
 
-			return wikiLinks;
+			var wikiLinksList = ParseLinks(result)
+				.Where(x => x.Contains("/wiki/") && !x.Contains("https://") && !x.Contains(".jpg") && !x.Contains(".png"))
+				.ToList();
+
+			var wikiLinksHashSet = new HashSet<string>();
+			foreach(var wikiLink in wikiLinksList)
+			{
+				wikiLinksHashSet.Add("https://en.wikipedia.org" + wikiLink);
+			}
+
+			HashSet<string> ParseLinks(string html)
+			{
+				var doc = new HtmlDocument();
+				doc.LoadHtml(html);
+				var nodes = doc.DocumentNode.SelectNodes("//a[@href]");
+				return nodes == null ? new HashSet<string>() : nodes.ToList().ConvertAll(
+					   r => r.Attributes.ToList().ConvertAll(
+					   i => i.Value)).SelectMany(j => j).ToHashSet();
+			}
+
+			return wikiLinksHashSet;
 		}
 	}
 }
