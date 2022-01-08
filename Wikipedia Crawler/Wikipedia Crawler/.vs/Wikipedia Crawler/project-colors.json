@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc35d288-6e49-4335-b6b0-d521d5199ad6": {
+      "ProjectGuid": "fc35d288-6e49-4335-b6b0-d521d5199ad6",
+      "DisplayName": "Wikipedia Crawler",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

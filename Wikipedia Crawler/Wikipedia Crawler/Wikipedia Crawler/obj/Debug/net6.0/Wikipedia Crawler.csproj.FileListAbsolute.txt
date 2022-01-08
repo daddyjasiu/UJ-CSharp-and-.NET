@@ -1,0 +1,17 @@
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\Wikipedia Crawler.exe
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\Wikipedia Crawler.deps.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\Wikipedia Crawler.runtimeconfig.json
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\Wikipedia Crawler.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\ref\Wikipedia Crawler.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\Wikipedia Crawler.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.csproj.AssemblyReference.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.AssemblyInfoInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.AssemblyInfo.cs
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.csproj.CoreCompileInputs.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\ref\Wikipedia Crawler.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.pdb
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.genruntimeconfig.cache
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\jansk\OneDrive\Documents\UJ\C# i .NET\UJ-CSharp-and-.NET\Wikipedia Crawler\Wikipedia Crawler\Wikipedia Crawler\obj\Debug\net6.0\Wikipedia Crawler.csproj.CopyComplete

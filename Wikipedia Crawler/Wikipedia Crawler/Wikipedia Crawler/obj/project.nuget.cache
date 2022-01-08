@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mmk0DzGLv6ng1Woa0GZdFwMVdu0q7HthGTI5RMysdFhZnkB8j4AlwpGjC1mZfYVAM9R5CPZ0RHbDXkdobRecxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jansk\\OneDrive\\Documents\\UJ\\C# i .NET\\UJ-CSharp-and-.NET\\Wikipedia Crawler\\Wikipedia Crawler\\Wikipedia Crawler\\Wikipedia Crawler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jansk\\.nuget\\packages\\htmlagilitypack\\1.11.39\\htmlagilitypack.1.11.39.nupkg.sha512"
+  ],
+  "logs": []
+}
