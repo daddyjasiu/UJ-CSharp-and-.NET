@@ -1,14 +1,9 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Wikipedia_Crawler
 {
-
 	internal class Crawler
 	{
 		private int _maxDepth;
@@ -25,16 +20,18 @@ namespace Wikipedia_Crawler
 			var sourcePage = new CrawlerPage(sourceLink);
 			var destinationPage = new CrawlerPage(destinationLink);
 			var visited = new HashSet<string>();
-
-			Queue<CrawlerPage> queue = new();
+			
+			Queue <CrawlerPage> queue = new();
 			queue.Enqueue(sourcePage);
 
 			while (queue.Count > 0)
 			{
-				_currDepth++;
 				var currPage = queue.Dequeue();
+				Console.WriteLine(currPage.mainLink);
+				
+				var currPageSubpages = await Task.Run(() => currPage.GetPages());
 
-				if (currPage.mainLink == destinationPage.mainLink)
+				if (currPage.mainLink == destinationPage.mainLink || _currDepth == _maxDepth)
 				{
 					visited.Add(currPage.mainLink);
 					break;
@@ -44,12 +41,12 @@ namespace Wikipedia_Crawler
 					continue;
 
 				visited.Add(currPage.mainLink);
-
-				foreach (var neighbor in await currPage.GetPages())
+				
+				foreach (var page in currPageSubpages)
 				{
-					if (!visited.Contains(neighbor.mainLink))
+					if (!visited.Contains(page.mainLink))
 					{
-						queue.Enqueue(neighbor);
+						queue.Enqueue(page);
 					}
 				}
 			}
@@ -59,6 +56,5 @@ namespace Wikipedia_Crawler
 				Console.WriteLine(visitedPage);
 			}
 		}
-
 	}
 }

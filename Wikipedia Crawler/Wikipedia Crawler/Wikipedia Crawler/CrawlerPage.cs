@@ -1,8 +1,7 @@
-﻿using System;
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Wikipedia_Crawler
@@ -18,7 +17,7 @@ namespace Wikipedia_Crawler
 
 		public async Task<List<CrawlerPage>> GetPages()
 		{
-			var pagesLinks = await GetPages(this);
+			var pagesLinks = await Task.Run(() => GetPages(this));
 			
 			foreach(var page in pagesLinks)
 			{
@@ -28,7 +27,7 @@ namespace Wikipedia_Crawler
 			return _pages;
 		}
 
-		private async Task<HashSet<string>> GetPages(CrawlerPage page)
+		private HashSet<string> GetPages(CrawlerPage page)
 		{
 			string result = "";
 
@@ -44,7 +43,9 @@ namespace Wikipedia_Crawler
 			}
 
 			var wikiLinksList = ParseLinks(result)
-				.Where(x => x.Contains("/wiki/") && !x.Contains("https://") && !x.Contains(".jpg") && !x.Contains(".png"))
+				.Where(x => x.Contains("/wiki/") && !x.Contains("https://") && !x.Contains(".jpg") &&
+				            !x.Contains(".png"))
+				.AsParallel()
 				.ToList();
 
 			var wikiLinksHashSet = new HashSet<string>();
@@ -58,9 +59,9 @@ namespace Wikipedia_Crawler
 				var doc = new HtmlDocument();
 				doc.LoadHtml(html);
 				var nodes = doc.DocumentNode.SelectNodes("//a[@href]");
-				return nodes == null ? new HashSet<string>() : nodes.ToList().ConvertAll(
-					   r => r.Attributes.ToList().ConvertAll(
-					   i => i.Value)).SelectMany(j => j).ToHashSet();
+				return nodes == null ? new HashSet<string>() : nodes.AsParallel().ToList().ConvertAll(
+					   r => r.Attributes.AsParallel().ToList().ConvertAll(
+					   i => i.Value)).SelectMany(j => j).AsParallel().ToHashSet();
 			}
 
 			return wikiLinksHashSet;
