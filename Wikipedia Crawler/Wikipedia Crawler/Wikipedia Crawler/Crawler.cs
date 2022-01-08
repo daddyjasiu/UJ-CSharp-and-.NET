@@ -1,60 +1,63 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Wikipedia_Crawler
 {
-	internal class Crawler
-	{
-		private int _maxDepth;
-		private int _currDepth;
+    internal class Crawler
+    {
+        private int _currDepth;
+        public HashSet<string> _visited;
 
-		public Crawler(int maxDepth)
-		{
-			_currDepth = 0;
-			_maxDepth = maxDepth;
-		}
-		
-		public async Task CrawlParallelAsync(string sourceLink, string destinationLink)
-		{
-			var sourcePage = new CrawlerPage(sourceLink);
-			var destinationPage = new CrawlerPage(destinationLink);
-			var visited = new HashSet<string>();
-			
-			Queue <CrawlerPage> queue = new();
-			queue.Enqueue(sourcePage);
+        public Crawler(int currDepth, HashSet<string> visited)
+        {
+            _currDepth = currDepth;
+            _visited = visited;
+        }
 
-			while (queue.Count > 0)
-			{
-				var currPage = queue.Dequeue();
-				Console.WriteLine(currPage.mainLink);
-				
-				var currPageSubpages = await Task.Run(() => currPage.GetPages());
+        public Task CrawlParallelAsync(string sourceLink, string destinationLink)
+        {
+            Task task = Task.Run(() =>
+            {
+                if (Globals.isCrawling)
+                {
+                    var currPage = new CrawlerPage(sourceLink);
+                    var destinationPage = new CrawlerPage(destinationLink); ;
 
-				if (currPage.mainLink == destinationPage.mainLink || _currDepth == _maxDepth)
-				{
-					visited.Add(currPage.mainLink);
-					break;
-				}
+                    var currPageSubpages = currPage.GetPages();
 
-				if (visited.Contains(currPage.mainLink))
-					continue;
+                    if (String.Equals(currPage.mainLink, destinationPage.mainLink))
+                    {
+                        Console.Write("Link found at depth: ");
+                        Console.WriteLine(_currDepth);
+                        _visited.Add(currPage.mainLink);
+                        Globals.isCrawling = false;
+                    }
 
-				visited.Add(currPage.mainLink);
-				
-				foreach (var page in currPageSubpages)
-				{
-					if (!visited.Contains(page.mainLink))
-					{
-						queue.Enqueue(page);
-					}
-				}
-			}
+                    if (_visited.Contains(currPage.mainLink))
+                        return;
 
-			foreach (var visitedPage in visited)
-			{
-				Console.WriteLine(visitedPage);
-			}
-		}
-	}
+                    _visited.Add(currPage.mainLink);
+
+                    List<Task> taskList = new();
+                    taskList.AsParallel();
+
+                    if (Globals.isCrawling)
+                    {
+                        foreach (var page in currPageSubpages)
+                        {
+                            if (!_visited.Contains(page.mainLink))
+                            {
+                                Crawler newCrawler = new(_currDepth + 1, _visited);
+                                taskList.Add(newCrawler.CrawlParallelAsync(page.mainLink, destinationLink));
+                            }
+                        }
+                    }
+                }
+            });
+            
+            return task;
+        }
+    }
 }
